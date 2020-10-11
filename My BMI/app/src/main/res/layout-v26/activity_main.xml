@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/new_background"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/height_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Height_input"
+            android:autofillHints="Enter your height (in cm)"
+            android:inputType="number|numberDecimal"
+            android:translationX="100dp"
+            android:translationY="220dp" />
+
+        <EditText
+            android:id="@+id/weight_input"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/Weight_input"
+            android:autofillHints="Enter your weight (in kg)"
+            android:inputType="number|numberDecimal"
+            android:translationX="100dp"
+            android:translationY="240dp" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_text"
+            android:translationX="100dp"
+            android:translationY="240dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="213dp"
+            android:layout_height="72dp"
+            android:textSize="18sp"
+            android:translationX="100dp"
+            android:translationY="250dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/developer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/developer"
+        android:translationX="150dp"
+        android:translationY="700dp" />
+
+</RelativeLayout>

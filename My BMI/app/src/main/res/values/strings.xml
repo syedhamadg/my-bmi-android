@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My BMI</string>
+    <string name="button_text">CALCULATE</string>
+    <string name="find_out_text">Find out if you are underweight, normal, overweight, or obese</string>
+    <string name="Height_input">Enter your height (in m)</string>
+    <string name="Weight_input">Enter your weight (in kg)</string>
+    <string name="developer">Developed by SHG</string>
+</resources>
